@@ -19,6 +19,15 @@ module.exports = function(defaults) {
   // modules that you would like to import into your application
   // please specify an object with the list of modules as keys
   // along with the exports of each module as its value.
-
+  app.import('bower_components/jquery/dist/jquery.js');
+  app.import('bower_components/bootstrap/dist/js/bootstrap.js');
+  app.import('bower_components/bootstrap-material-design/dist/js/material.js');
+  app.import('bower_components/bootstrap-material-design/dist/js/ripples.js');
+  app.import('bower_components/bootstrap/dist/css/bootstrap.css');
+  app.import('bower_components/bootstrap-material-design/dist/css/material.css');
+  app.import('bower_components/bootstrap-material-design/dist/css/ripples.css');
+  app.import('bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf');
+  app.import('bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff');
+  app.import('bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff2');
   return app.toTree();
 };
