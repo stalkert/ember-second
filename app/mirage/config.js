@@ -5,7 +5,7 @@ export default function() {
         type: 'customers',
         id: 1,
         attributes: {
-
+          img: "assets/images/photo1.jpg",
           name: "Dima",
           email: "di@gmail.com",
           tel: "446546467",
@@ -19,7 +19,7 @@ export default function() {
         type: 'customers',
         id: 2,
         attributes: {
-
+          img: "assets/images/photo2.jpg",
           name: "Taran",
           email: "iv@gmail.com",
           tel: "4556787",
@@ -33,7 +33,7 @@ export default function() {
         type: 'customers',
         id: 3,
         attributes: {
-
+          img: "assets/images/photo3.jpg",
           name: "Ivan",
           email: "iv@gmail.com",
           tel:"4556787",
@@ -47,7 +47,7 @@ export default function() {
         type: 'customers',
         id: 4,
         attributes: {
-
+          img: "assets/images/photo4.jpg",
           name: "Miha",
           email: "mi@gmail.com",
           tel:"575676787",
